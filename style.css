@@ -175,3 +175,30 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+.Portforio {
+    background: var(--second-bg-color);
+}
+
+.Portforio h2 {
+    margin-bottom: 4rem;
+}
+
+.Portforio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.Portforio-container .Portforio-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+
+.Portforio-box img {
+    width: 50%;
+}
