@@ -344,6 +344,10 @@ span {
         margin-top: 4rem;
     }
 
+    .about-img img {
+        width: 60vw;
+    }
+
     .Portforio h2 {
         margin-bottom: 3rem;
     }
