@@ -346,6 +346,7 @@ span {
 
     .about-img img {
         width: 60vw;
+        border-radius: 20px;
     }
 
     .Portforio h2 {
